@@ -8,16 +8,16 @@ namespace Lesson_1._1
 {
     internal class Program
     {
-        static bool GameResult(char[,] gameShield)
+        static bool GameResult(char[,] gameField)
         {
-            if (((gameShield[0, 0] == gameShield[0, 1]) && (gameShield[0, 0] == gameShield[0, 2]) && (gameShield[0, 0] != '#')) ||
-                ((gameShield[1, 0] == gameShield[1, 1]) && (gameShield[1, 0] == gameShield[1, 2]) && (gameShield[1, 0] != '#')) ||
-                ((gameShield[2, 0] == gameShield[2, 1]) && (gameShield[2, 0] == gameShield[2, 2]) && (gameShield[2, 0] != '#')) ||
-                ((gameShield[0, 0] == gameShield[1, 0]) && (gameShield[0, 0] == gameShield[2, 0]) && (gameShield[0, 0] != '#')) ||
-                ((gameShield[0, 1] == gameShield[1, 1]) && (gameShield[0, 1] == gameShield[2, 1]) && (gameShield[0, 1] != '#')) ||
-                ((gameShield[0, 2] == gameShield[1, 2]) && (gameShield[0, 2] == gameShield[2, 2]) && (gameShield[0, 2] != '#')) ||
-                ((gameShield[0, 0] == gameShield[1, 1]) && (gameShield[0, 0] == gameShield[2, 2]) && (gameShield[0, 0] != '#')) ||
-                ((gameShield[2, 0] == gameShield[1, 1]) && (gameShield[2, 0] == gameShield[0, 2]) && (gameShield[2, 0] != '#')))
+            if (((gameField[0, 0] == gameField[0, 1]) && (gameField[0, 0] == gameField[0, 2]) && (gameField[0, 0] != '#')) ||
+                ((gameField[1, 0] == gameField[1, 1]) && (gameField[1, 0] == gameField[1, 2]) && (gameField[1, 0] != '#')) ||
+                ((gameField[2, 0] == gameField[2, 1]) && (gameField[2, 0] == gameField[2, 2]) && (gameField[2, 0] != '#')) ||
+                ((gameField[0, 0] == gameField[1, 0]) && (gameField[0, 0] == gameField[2, 0]) && (gameField[0, 0] != '#')) ||
+                ((gameField[0, 1] == gameField[1, 1]) && (gameField[0, 1] == gameField[2, 1]) && (gameField[0, 1] != '#')) ||
+                ((gameField[0, 2] == gameField[1, 2]) && (gameField[0, 2] == gameField[2, 2]) && (gameField[0, 2] != '#')) ||
+                ((gameField[0, 0] == gameField[1, 1]) && (gameField[0, 0] == gameField[2, 2]) && (gameField[0, 0] != '#')) ||
+                ((gameField[2, 0] == gameField[1, 1]) && (gameField[2, 0] == gameField[0, 2]) && (gameField[2, 0] != '#')))
             {
                 return true;
             }
