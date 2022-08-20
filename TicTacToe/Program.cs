@@ -27,7 +27,7 @@ namespace Lesson_1._1
 
         static void Main(string[] args)
         {
-            Console.WriteLine("\t\t\t\t\t\tTicTacToe");
+            Console.WriteLine("\t\t\t\t\t\t##TicTacToe##");
             Console.WriteLine("\t\t\t\t\tPress enter to start the game.");
             ConsoleKey key = Console.ReadKey().Key;
             char[,] gameField =
